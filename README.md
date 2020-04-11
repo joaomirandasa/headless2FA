@@ -5,7 +5,7 @@
 - follow the instructions
 
 ## Motivation
-Sometimes you need to run headless tasks into some webservices or websites with 2FA authentication, like SMS of e-mail. Thus you feel stucked at some point how to run this routines into headless, this tiny snnipet allow you to do it.
+Sometimes you need to run headless tasks into some webservices or websites with 2FA authentication, like SMS or e-mail. Thus you feel stucked at some point how to run this routines into headless, this tiny snnipet allow you to do it.
 
 If you are recurrent visitor on my repositories you will realize i always use TotalJS for structure my codes, and develop what i want as an module of this, that way it's easy to import on another project.
 
