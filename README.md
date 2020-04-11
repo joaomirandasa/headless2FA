@@ -29,7 +29,7 @@ Waiting all TotalJS configurations be ready
 ON('ready', function() { 
 
 	/*
-	Funciton to askToken from user
+	Function to askToken from user
 	*/
 	function askToken(questionText) {
 		console.log("[Token] - Asking token from user input");
