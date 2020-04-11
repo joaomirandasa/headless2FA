@@ -24,17 +24,17 @@ const rl = readline.createInterface({
 });
 
 /*
-	Waiting all TotalJS configurations be ready 
+Waiting all TotalJS configurations be ready 
 */
 ON('ready', function() { 
 
 	/*
-		Funciton to askToken from user
+	Funciton to askToken from user
 	*/
 	function askToken(questionText) {
 		console.log("[Token] - Asking token from user input");
 	  	return new Promise((resolve, reject) => {
-	    	rl.question("\nWhat is the token received over SMS?", (input) => {
+	    	rl.question("\nWhat is the token received?", (input) => {
 	    		rl.close();
 	    		resolve(input);
 	    	});
@@ -42,7 +42,7 @@ ON('ready', function() {
 	}
 
 	/*
-		Lauching Puppeter to get page and send Token over SMS
+	Lauching Puppeter to get page and send Token
 	*/
 	puppeteer.launch({headless : false}).then(async browser => {
 	  	const page = await browser.newPage();
